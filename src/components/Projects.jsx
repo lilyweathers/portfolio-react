@@ -15,7 +15,7 @@ const Projects = () => {
                     description="REST API built with Spring Boot, MySQL and Docker.">
                 </ProjectCard>
                 <ProjectCard
-                    title='<a href="https://massageterapeuterna.com" target="_blank" rel="noopener noreferrer">MassageTerapeuterna</a>'
+                    title={<a href="https://massageterapeuterna.com" target="_blank" rel="noopener noreferrer">MassageTerapeuterna</a>}
                     description="Commercial WordPress website developed during my internship at
                             Just Value AB. Contributed to frontend development using HTML,
                             CSS, JavaScript, implementing client requests,
